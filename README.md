@@ -1,2 +1,4 @@
 # CHistNet
-Advanced Histopathology Image Classification via Supervised Contrastive Deep Learning
+Histopathology Image Classification Using Supervised Contrastive Deep Learning
+
+**The paper is under review and the code will be made available upon acceptance.**
