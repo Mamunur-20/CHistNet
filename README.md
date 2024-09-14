@@ -27,5 +27,26 @@ The following datasets were used for training and evaluation:
 Please refer to the paper for detailed instructions on how to download and prepare these datasets.
 
 ---
+## How to Run
+
+### 1. Generate TFRecords
+
+Before training, the datasets must be converted into TensorFlow Records (TFRecords) to optimize the input pipeline. You can generate the TFRecords by running the `generate_tfrecords.py` script. Make sure to update the file paths within the script to match your local dataset directories.
+
+
+01. python generate_tfrecords.py
+02. python main.py
+
+---
+## Citation
+Please cite the following paper:
+```bash
+@inproceedings{rahaman2024histopathology,
+  title={Histopathology Image Classification Using Supervised Contrastive Deep Learning},
+  author={Rahaman, Md Mamunur and Millar, Ewan K. A. and Meijering, Erik},
+  booktitle={IEEE International Symposium on Biomedical Imaging (ISBI)},
+  year={2024},
+  organization={IEEE}
+}
 
 
